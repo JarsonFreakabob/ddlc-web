@@ -1,12 +1,9 @@
 # Site settings
-title: My Awesome Blog
-email: your-email@example.com
-description: >- # this from the front matter
-  Write an awesome description for your new site here.
+title: My Awesome Site
+description: A Jekyll site hosted on GitHub Pages
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yourusername.github.io" # the base hostname & protocol for your site
-theme: jekyll-theme-minimal # Specifies the theme gem to use
-
-# Other options (optional)
-# markdown: kramdown
-# ...
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
